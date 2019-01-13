@@ -1,0 +1,11 @@
+/media/Storage/Repositories/Design patterns/bin/Debug/netcoreapp2.2/Design patterns.deps.json
+/media/Storage/Repositories/Design patterns/bin/Debug/netcoreapp2.2/Design patterns.runtimeconfig.json
+/media/Storage/Repositories/Design patterns/bin/Debug/netcoreapp2.2/Design patterns.runtimeconfig.dev.json
+/media/Storage/Repositories/Design patterns/bin/Debug/netcoreapp2.2/Design patterns.dll
+/media/Storage/Repositories/Design patterns/bin/Debug/netcoreapp2.2/Design patterns.pdb
+/media/Storage/Repositories/Design patterns/obj/Debug/netcoreapp2.2/Design patterns.csprojAssemblyReference.cache
+/media/Storage/Repositories/Design patterns/obj/Debug/netcoreapp2.2/Design patterns.csproj.CoreCompileInputs.cache
+/media/Storage/Repositories/Design patterns/obj/Debug/netcoreapp2.2/Design patterns.AssemblyInfoInputs.cache
+/media/Storage/Repositories/Design patterns/obj/Debug/netcoreapp2.2/Design patterns.AssemblyInfo.cs
+/media/Storage/Repositories/Design patterns/obj/Debug/netcoreapp2.2/Design patterns.dll
+/media/Storage/Repositories/Design patterns/obj/Debug/netcoreapp2.2/Design patterns.pdb
