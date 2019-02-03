@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/Storage/Repositories/Design patterns/Design patterns.csproj",
+      "projectUniqueName": "/media/Storage/Repositories/Design patterns/DesignPatterns/Design patterns.csproj",
       "projectName": "Design patterns",
-      "projectPath": "/media/Storage/Repositories/Design patterns/Design patterns.csproj",
+      "projectPath": "/media/Storage/Repositories/Design patterns/DesignPatterns/Design patterns.csproj",
       "packagesPath": "/home/gert-jan/.nuget/packages/",
-      "outputPath": "/media/Storage/Repositories/Design patterns/obj/",
+      "outputPath": "/media/Storage/Repositories/Design patterns/DesignPatterns/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
