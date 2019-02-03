@@ -7,6 +7,7 @@ using Design_patterns.Patterns.Strategy.Quack;
 using DesignPatterns.Patterns.Decorator;
 using DesignPatterns.Patterns.Factory_Method;
 using DesignPatterns.Patterns.Abstract_Factory;
+using DesignPatterns.Patterns.Singleton;
 
 namespace Design_patterns
 {
@@ -65,12 +66,21 @@ namespace Design_patterns
             System.Console.WriteLine("====== Factory Method End ======");
 
             System.Console.WriteLine("====== Abstract Factory Start ======");
-            System.Console.WriteLine("Example: is used to create different kind of collection");
+            // Example: is used to create different kind of collection"
             IAbstractFactory productFactory = new Factory1();
             var productA = productFactory.CreateProductA();
             var productB = productFactory.CreateProductB();
 
-            System.Console.WriteLine("====== Abstract Factory  End ======");
+            System.Console.WriteLine("====== Abstract Factory End ======");
+
+            System.Console.WriteLine("====== Singleton pattern Start ======");
+            var singleton = Singleton.GetInstance();
+            var singleton2 = Singleton.GetInstance();
+            System.Console.WriteLine(singleton == singleton2); // should be true
+
+            System.Console.WriteLine("====== Singleton pattern End ======");
+
+            
         }
     }
 }
