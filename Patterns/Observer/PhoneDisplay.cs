@@ -1,6 +1,6 @@
-using Design_patterns.Patterns.Observer.Models;
+using DesignPatterns.Patterns.Observer.Models;
 
-namespace Design_patterns.Patterns.Observer
+namespace DesignPatterns.Patterns.Observer
 {
     public class PhoneDisplay : IObserver<WeatherData>
     {

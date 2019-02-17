@@ -1,4 +1,4 @@
-namespace Design_patterns.Patterns.Strategy.Fly
+namespace DesignPatterns.Patterns.Strategy.Fly
 {
     public class SimpleFlying : IFlyBehaviour
     {

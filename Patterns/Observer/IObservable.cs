@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Design_patterns.Patterns.Observer
+namespace DesignPatterns.Patterns.Observer
 {
     public interface IObservable<T>
     {

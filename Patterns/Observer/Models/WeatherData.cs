@@ -1,4 +1,4 @@
-namespace Design_patterns.Patterns.Observer.Models
+namespace DesignPatterns.Patterns.Observer.Models
 {
     public class WeatherData
     {

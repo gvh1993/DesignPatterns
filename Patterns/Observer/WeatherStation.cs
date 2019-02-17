@@ -1,7 +1,7 @@
-using Design_patterns.Patterns.Observer.Models;
+using DesignPatterns.Patterns.Observer.Models;
 using System.Collections.Generic;
 
-namespace Design_patterns.Patterns.Observer
+namespace DesignPatterns.Patterns.Observer
 {
     public class Weatherstation : IObservable<WeatherData>
     {

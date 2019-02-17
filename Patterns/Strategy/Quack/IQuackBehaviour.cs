@@ -1,4 +1,4 @@
-namespace Design_patterns.Patterns.Strategy.Quack
+namespace DesignPatterns.Patterns.Strategy.Quack
 {
     public interface IQuackBehaviour
     {

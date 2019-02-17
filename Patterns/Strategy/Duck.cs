@@ -1,7 +1,7 @@
-using Design_patterns.Patterns.Strategy.Quack;
-using Design_patterns.Patterns.Strategy.Fly;
+using DesignPatterns.Patterns.Strategy.Quack;
+using DesignPatterns.Patterns.Strategy.Fly;
 
-namespace Design_patterns.Patterns.Strategy
+namespace DesignPatterns.Patterns.Strategy
 {
     public class Duck
     {
