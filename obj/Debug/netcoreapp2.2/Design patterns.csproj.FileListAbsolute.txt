@@ -20,3 +20,9 @@
 /media/Storage/Repositories/Design patterns/DesignPatterns/obj/Debug/netcoreapp2.2/Design patterns.AssemblyInfo.cs
 /media/Storage/Repositories/Design patterns/DesignPatterns/obj/Debug/netcoreapp2.2/Design patterns.dll
 /media/Storage/Repositories/Design patterns/DesignPatterns/obj/Debug/netcoreapp2.2/Design patterns.pdb
+D:\Github\DesignPatterns\obj\Debug\netcoreapp2.2\Design patterns.csproj.CoreCompileInputs.cache
+D:\Github\DesignPatterns\obj\Debug\netcoreapp2.2\Design patterns.AssemblyInfoInputs.cache
+D:\Github\DesignPatterns\obj\Debug\netcoreapp2.2\Design patterns.AssemblyInfo.cs
+D:\Github\DesignPatterns\obj\Debug\netcoreapp2.2\Design patterns.dll
+D:\Github\DesignPatterns\obj\Debug\netcoreapp2.2\Design patterns.pdb
+D:\Github\DesignPatterns\obj\Debug\netcoreapp2.2\Design patterns.csprojAssemblyReference.cache

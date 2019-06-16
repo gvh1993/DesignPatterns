@@ -3,7 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>Design_patterns</RootNamespace>
+    <RootNamespace>DesignPatterns</RootNamespace>
+    <StartupObject>Design_patterns.Program</StartupObject>
   </PropertyGroup>
 
 </Project>

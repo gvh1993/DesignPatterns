@@ -10,6 +10,8 @@ using DesignPatterns.Patterns.Abstract_Factory;
 using DesignPatterns.Patterns.Singleton;
 using DesignPatterns.Patterns.Command;
 using DesignPatterns.Patterns.Adapter;
+using DesignPatterns.Patterns.Bridge;
+using DesignPatterns.Patterns.Bridge.Resources;
 
 namespace Design_patterns
 {
@@ -133,6 +135,21 @@ namespace Design_patterns
             System.Console.WriteLine("===== Adapter Pattern End =====");
 
 
+            ////////////////////////
+            ///   Bridge Pattern
+            ////////////////////////
+            ///  Bridge pattern is used to decouple an abstraction from its implementation so that the 2 can vary indepently
+            ///  in this example 1 views has a resource.
+            ///  instead of creating every combination of view & resource use abstractions 
+            ///  View has an IResource
+            ///  bridge pattern is solution for carthesian product {
+            ///  s1 = {a, b, c}
+            ///  s2 = {1, 2, 3}
+            ///  cartesian product = 9
+
+            System.Console.WriteLine(" ==== Bridge Pattern Start ====");
+            var longform = new LongForm(new Book());
+            System.Console.WriteLine(" ==== Bridge Pattern End ====");
         }
     }
 }
