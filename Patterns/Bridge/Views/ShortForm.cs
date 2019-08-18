@@ -5,7 +5,7 @@ namespace DesignPatterns.Patterns.Bridge.Views
 {
     public class ShortForm : View
     {
-        public ShortForm(Resource resource) : base(resource)
+        public ShortForm(IResource resource) : base(resource)
         {
         }
 

@@ -12,6 +12,8 @@ using DesignPatterns.Patterns.Command;
 using DesignPatterns.Patterns.Adapter;
 using DesignPatterns.Patterns.Bridge;
 using DesignPatterns.Patterns.Bridge.Resources;
+using DesignPatterns.Patterns.Dispose;
+using DesignPatterns.Patterns.Bridge.Views;
 
 namespace Design_patterns
 {
@@ -19,6 +21,7 @@ namespace Design_patterns
     {
         static void Main(string[] args)
         {
+            #region strategy pattern
             ///////////////////////////
             ///  STRATEGY PATTERN 
             ///////////////////////////
@@ -35,7 +38,9 @@ namespace Design_patterns
             simpleNoQuackDuck.FlyBehaviour.Fly();
             simpleNoQuackDuck.QuackBehaviour.Quack();
             System.Console.WriteLine("====== Strategy Pattern End ======");
+            #endregion
 
+            #region observer pattern
             ///////////////////////////
             ///  OBSERVER PATTERN 
             ///////////////////////////
@@ -65,7 +70,10 @@ namespace Design_patterns
             weatherStation.NotifyObservers(new WeatherData { Temperature = 17, Humidity = 50, WindSpeed = 7 });
 
             System.Console.WriteLine("====== Observer Pattern End ======");
+#endregion
 
+
+            #region decorator pattern
             ///////////////////////////
             ///  DECORATOR PATTERN 
             ///////////////////////////
@@ -77,15 +85,19 @@ namespace Design_patterns
             System.Console.WriteLine(order.Cost());
 
             System.Console.WriteLine("====== Decorater Pattern End ======");
+            #endregion
 
+            #region factory method pattern
             ///////////////////////////
             ///  FACTORY METHOD PATTERN 
             ///////////////////////////
             System.Console.WriteLine("====== Factory Method Start ======");
             var obstacleFactory = new ConcreteCreator(5);
-            
-            System.Console.WriteLine("====== Factory Method End ======");
 
+            System.Console.WriteLine("====== Factory Method End ======");
+            #endregion
+
+            #region abstract factory pattern
             /////////////////////////////////
             ///  ABSTRACT FACTORY PATTERN 
             /////////////////////////////////
@@ -98,7 +110,10 @@ namespace Design_patterns
             var productB = productFactory.CreateProductB();
 
             System.Console.WriteLine("====== Abstract Factory End ======");
+            #endregion
 
+
+            #region singleton pattern
             ///////////////////////////
             ///  SINGLETON PATTERN 
             ///////////////////////////
@@ -110,7 +125,9 @@ namespace Design_patterns
             System.Console.WriteLine(singleton == singleton2); // should be true
 
             System.Console.WriteLine("====== Singleton pattern End ======");
+            #endregion
 
+            #region command pattern
             ///////////////////////////
             ///  COMMAND PATTERN 
             ///////////////////////////
@@ -123,18 +140,21 @@ namespace Design_patterns
             invoker.On.Execute();
 
             System.Console.WriteLine("===== Command Pattern End =====");
+            #endregion
 
+            #region adapter pattern
             ///////////////////////////
             ///  ADAPTER PATTERN 
             ///////////////////////////
             System.Console.WriteLine("===== Adapter Pattern Start =====");
-                // Pattern is used to adapt the interface of A to interface B
-                // making 2 interfaces that aren compatible -> compatible
-                ITarget target = new Adapter(new Adaptee());
-                target.Request();
+            // Pattern is used to adapt the interface of A to interface B
+            // making 2 interfaces that aren compatible -> compatible
+            ITarget target = new Adapter(new Adaptee());
+            target.Request();
             System.Console.WriteLine("===== Adapter Pattern End =====");
+            #endregion
 
-
+            #region bridge pattern
             ////////////////////////
             ///   Bridge Pattern
             ////////////////////////
@@ -149,7 +169,25 @@ namespace Design_patterns
 
             System.Console.WriteLine(" ==== Bridge Pattern Start ====");
             var longform = new LongForm(new Book());
+            var shortForm = new ShortForm(new Artist());
             System.Console.WriteLine(" ==== Bridge Pattern End ====");
+            #endregion
+
+
+            #region dispose pattern
+            /////////////////////////
+            ///   Dispose Pattern
+            ////////////////////////
+            /// is used to clean managed and unmanaged resources.
+            /// able to use finallize alongside dispose
+            /// when dispose -> remove managed AND unmanaged resources
+            /// when finalize -> remove unmanaged resources
+
+            System.Console.WriteLine(" ==== Dispose Pattern Start ====");
+            var myDispose = new MyDispose();
+            myDispose.Dispose();
+            System.Console.WriteLine(" ==== Dispose Pattern End ====");
+            #endregion
         }
     }
 }
